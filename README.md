@@ -33,17 +33,27 @@ S3 (Upload) → Lambda (Process) → DynamoDB (Store Metadata) + SNS (Notify)
 
 ## Screenshots
 
+### Architecture
+![Architecture](screenshots/architecture.png)
+
+### IAM Policies
+![IAM Policies](screenshots/iam-policies.png)
+
 ### S3 Bucket
-![S3 Bucket](screenshots/s3-bucket.png)
+![S3 Bucket](screenshots/s3.png)
 
 ### Lambda Function
-![Lambda Function](screenshots/lambda-function.png)
+![Lambda Function](screenshots/lambda_function.png)
+![Lambda Function Overview](screenshots/lambda_function_overview.png)
+
+### SNS Topic
+![SNS Topic](screenshots/sns-topic.png)
 
 ### DynamoDB Output
 ![DynamoDB Output](screenshots/dynamodb-output.png)
 
 ### SNS Email Alert
-![SNS Email Alert](screenshots/sns-email.png)
+![SNS Email Alert](screenshots/sns-email.PNG)
 
 ## Cost
 Built entirely within AWS Free Tier — $0 cost.
